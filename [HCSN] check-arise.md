@@ -1,4 +1,4 @@
-# Webhook API — Kiểm tra phát sinh dữ liệu MasterData trên app tích hợp
+# Webhook API — Kiểm tra phát sinh dữ liệu (CCTC, Chức vụ, Chức danh, CBNV) trên subapp
 
 **PBI**: [#594103](http://tfs2017-app:8080/tfs/defaultcollection/MISAPlatform/_workitems?id=594103&_a=edit) — Xóa CCTC, Chức vụ, Chức danh, CBNV đã phát sinh tại các subapp  
 **Created**: 2026-06-30
