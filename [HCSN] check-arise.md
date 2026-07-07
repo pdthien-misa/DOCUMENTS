@@ -38,7 +38,7 @@ POST /api/CheckArise
 |---|---|---|---|
 | `tenantID` | `string (GUID)` | ✅ | ID của công ty cần kiểm tra |
 | `type` | `string (enum)` | ✅ | Loại dữ liệu cần kiểm tra (xem bảng dưới) |
-| `state` | `integer` | ✅ | Trạng thái dữ liệu. `2`: Sửa, `3`: Xóa |
+| `state` | `integer` | ✅ | Trạng thái dữ liệu. `3`: Xóa |
 
 ### Enum `type`
 
