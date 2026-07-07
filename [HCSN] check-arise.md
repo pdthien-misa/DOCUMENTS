@@ -39,7 +39,6 @@ POST /api/CheckArise
 | `tenantID` | `string (GUID)` | ✅ | ID của công ty cần kiểm tra |
 | `type` | `string (enum)` | ✅ | Loại dữ liệu cần kiểm tra (xem bảng dưới) |
 | `state` | `integer` | ✅ | Trạng thái dữ liệu. `2`: Sửa, `3`: Xóa |
-| `budgetCode` | `string` | ❌ | Mã ngân sách — chỉ dùng cho các app HCSN (Hành chính sự nghiệp) |
 
 ### Enum `type`
 
