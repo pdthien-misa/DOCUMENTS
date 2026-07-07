@@ -48,7 +48,6 @@ POST /api/CheckArise
 | `OrganizationUnit` | Cơ cấu tổ chức (phòng ban, đơn vị) |
 | `JobPosition` | Chức vụ |
 | `JobTitle` | Chức danh |
-| `User` | Người dùng |
 
 ### Body
 
