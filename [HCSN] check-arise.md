@@ -13,7 +13,7 @@ Do vậy, các subapp cần cung cấp **1 Webhook API** để MPL gọi khi có
 
 **Trên dữ liệu:** CCTC, Chức vụ, Chức danh, CBNV
 
-
+ 
 ---
 
 ## Endpoint
@@ -31,6 +31,7 @@ POST /api/CheckArise
 | Name | Value |
 |---|---|
 | `x-clientid` | ClientId cấp cho ứng dụng khi đăng ký vào AMIS Platform. Ứng dụng validate key này trùng với key được cung cấp. |
+| `x-clientsecret` | ClientSecret cấp cho ứng dụng khi đăng ký vào AMIS Platform. Ứng dụng validate key này trùng với key được cung cấp. |
 
 ### Query Parameters
 
