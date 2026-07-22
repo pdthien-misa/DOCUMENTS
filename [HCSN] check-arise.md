@@ -37,7 +37,8 @@ POST /api/CheckArise
 
 | Name | Type | Required | Mô tả |
 |---|---|---|---|
-| `tenantID` | `string (GUID)` | ✅ | ID của công ty cần kiểm tra |
+| `tenantID` | `string (GUID)` | ✅ | tenantID của Platform |
+| `subTenantID` | `string (GUID)` | ✅ | subTenantID |
 | `type` | `string (enum)` | ✅ | Loại dữ liệu cần kiểm tra (xem bảng dưới) |
 | `state` | `integer` | ✅ | Trạng thái dữ liệu. `3`: Xóa |
 
